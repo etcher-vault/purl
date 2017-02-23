@@ -142,6 +142,7 @@ Couple of other things:
 * Since the URL class is immutable it can be used as a key in a dictionary
 * It can be pickled and restored
 * It supports equality operations
+* It supports equality operations
 
 URL templates can be used either via a ``Template`` class:
 
@@ -274,6 +275,9 @@ Ensure tests pass using::
 
 or::
 
+    $ tox
+    $ tox
+    $ tox
     $ tox
 
 Hack away.
